@@ -1,0 +1,13 @@
+site:
+  title: "roshadguerrier.com"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/js/packages/personalwebsitekobweb/kotlin/personalwebsitekobweb.js"
+      api: "build/libs/personalwebsitekobweb.jar"
+    prod:
+      siteRoot: ".kobweb/site"
+
+  port: 8080
